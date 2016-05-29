@@ -13,4 +13,8 @@
 #define QCOM_BSP 1\
 %{nil}
 
+%define straggler_files\
+/logo.rle\
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
